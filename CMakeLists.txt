@@ -18,6 +18,6 @@ add_executable(main main.cpp)
 target_link_libraries(main
     PRIVATE
         module_1
-        module_2
+        csv_handler
         xml_handler
 )

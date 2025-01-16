@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<People>
+    <Person>
+        <Name>John Doe</Name>
+        <Age>30</Age>
+        <Occupation>Developer</Occupation>
+    </Person>
+    <Person>
+        <Name>Jane Smith</Name>
+        <Age>28</Age>
+        <Occupation>Designer</Occupation>
+    </Person>
+    <Person>
+        <Name>Bob Johnson</Name>
+        <Age>45</Age>
+        <Occupation>Manager</Occupation>
+    </Person>
+    <Person>
+        <Name>Alice Brown</Name>
+        <Age>35</Age>
+        <Occupation>Engineer</Occupation>
+    </Person>
+</People>

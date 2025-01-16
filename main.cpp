@@ -1,19 +1,14 @@
 #include "main.hpp"
 
 int main() {
-    // Using Module1
-    Module1 mod1("First Module");
-    mod1.setValue(42);
-    mod1.printInfo();
+    // Create an instance of the CSVHandler class
+    csv_handler csvHandler("../test_room/test.csv");
 
-    // Using Module2
-    Module2 mod2;
-    mod2.initialize();
-    mod2.addData(1.5);
-    mod2.addData(2.5);
-    cout << "Average: " << mod2.getAverage() << endl;
+    // Create and process the CSV file
+    //csvHandler.createCSV();
+    csvHandler.processCSV();
 
-    XmlHandler handler("people.xml");
+    XmlHandler handler("../test_room/people.xml");
     
     // Create sample data
     std::vector<XmlHandler::PersonData> people = {

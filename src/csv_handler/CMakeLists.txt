@@ -2,14 +2,14 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Create library for Module2
-add_library(module_2
+add_library(csv_handler
     STATIC
-        module_2.cpp
-        module_2.hpp
+        csv_handler.cpp
+        csv_handler.hpp
 )
 
 # Set include directories for this module
-target_include_directories(module_2
+target_include_directories(csv_handler
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}
 )
