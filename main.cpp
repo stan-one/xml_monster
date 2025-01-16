@@ -30,5 +30,11 @@ int main() {
         std::cout << "\nUpdated XML Content:\n";
         handler.printXml();
     }
+
+    string name = "my_test";
+
+    Module1 my_module = Module1(name);
+
+    cout<<my_module.getName()<<endl;
     
 }
